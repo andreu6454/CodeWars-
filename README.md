@@ -1,3 +1,3 @@
 # CodeWars-
 
-Решение задач с CodeWars
+Решение задач с CodeWars на JavaScript
