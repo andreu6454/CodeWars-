@@ -3,8 +3,10 @@ function countPhotos(road) {
     road.split("").forEach(el => {
         if (el === ">") {
             LtoRCars++
-        } else if (el === "<" && camerasCount !== 0) {
-            count += camerasCount
+        } else if (el === "<") {
+            if (camerasCount !== 0) {
+                count += camerasCount
+            }
         } else {
             camerasCount++;
             count += LtoRCars
